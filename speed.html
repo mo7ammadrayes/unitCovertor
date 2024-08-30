@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Speed Converter</h2>
+        <input type="text" id="input" value="0"><br>
+        <input type="radio" id="MphToKph" name="conversion" data-factor="1.60934"> <label for="MphToKph">Miles per hour to kilometers per hour</label><br>
+        <input type="radio" id="KphToMph" name="conversion" data-factor="0.621371"> <label for="KphToMph">Kilometers per hour to miles per hour</label><br>
+        <input type="radio" id="MpsToKph" name="conversion" data-factor="3.6"> <label for="MpsToKph">Meters per second to kilometers per hour</label><br>
+        <input type="radio" id="FtpsToKph" name="conversion" data-factor="1.097"> <label for="FtpsToKph">Feet per second to kilometers per hour</label><br>
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="answer"></p>
+    </form>
+    <footer><div class="pages">
+        <a href="index.html" > Home</a>
+        <a href="lenth.html"> lentgh </a>
+        <a href="speed.html" class="active"> speed </a>
+        <a href="weight.html"> weight </a>
+        <a href="trmp.html" > tempretuare </a>
+        <a href="volume.html"> volume </a>
+        <a href="area.html"> area </a>
+        <a href="time.html"> time </a>
+        <a href="info.html" > info  </a>
+    </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

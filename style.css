@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(234, 234, 234);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #7c0000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    background-color: rgb(172, 172, 172);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+    color: rgb(255, 145, 0);
+    width: 80%;
+    font-size: 1.5em;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7c0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5a0000;
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+.pages{
+    text-align:center;
+}
+.pages a{
+    text-decoration: none;
+    padding: 5px  15px;
+    display: inline-block
+}
+.pages a.active{
+    background-color: greenyellow;
+border-radius: 10px;}
+.pages a:not(.active):hover {
+    background-color: rgb(246, 6, 6);
+    color: white;
+    border-radius: 10px; /* Removed duplicate border-radius property */
+}
+
+a{
+    text-decoration: none;
+    padding: 5px  15px;
+    display: inline-block;
+    color: #7c0000
+}
+form a:hover{
+
+    background-color: rgb(67, 89, 34);
+border-radius: 10px;
+color: white;}
+#info{text-align: center;
+}
+#info a:hover{
+    background-color: rgb(13, 1, 63);
+    border-radius: 3px;
+    color: white;}
+    
+    h2 {
+        color: #7c0000;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    h3 {
+        color: #5a0000;
+        margin-left: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 40px;
+    }
+    
+    ul li {
+        background-color: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        color: #7c0000;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    h3 {
+        color: #5a0000;
+        margin-left: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 40px;
+    }
+    
+    ul li {
+        background-color: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        text-align: center;
+        border: #7c0000 solid;
+        border-radius: 10px;
+        box-shadow: 2px 2px sandybrown;
+        color: slateblue;
+        display: block;
+        padding: 20px;
+    }
+
+    #time, #date {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #333;
+    }
